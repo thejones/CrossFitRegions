@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'/>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.4/js/dojo/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.4/js/esri/css/esri.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript">
+            var dojoConfig = {
+                async: true,
+                parseOnLoad:false,
+                packages: [{
+                    name: "js",
+                    location: location.pathname.replace(/\/[^/]+$/, "")  + "/js"
+                },
+      			{ name: 'underscore', location: 'http://underscorejs.org', main:'underscore-min'}]
+            };
+        </script>
+        <script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=3.4">
+        </script>
+        <script type="text/javascript">
+            require(["js/main"], function(main){
+                main.startup();
+            });
+        </script>
+</head>
+<body class='section-0'>
+
+<div id='pane'><div id='map'></div></div>
+
+<article>
+  <section id='cover' class='cover active'>
+    <h1>CrossFit Regions</h1>
+    <p>BearPanther</p>
+    <small class='scroll'>Scroll ▼</small>
+  </section>
+  <section id='Africa'>
+    <h2>Africa</h2>
+    <img></img>
+  </section>
+  <section id='Asia'>
+    <h2>Asia</h2>
+    <img></img>
+  </section>
+  <section id='Austrailia'>
+    <h2>Austrailia</h2>
+    <img></img>
+  </section>
+  <section id='CanadaEast'>
+    <h2>Canada East</h2>
+    <img></img>
+  </section>
+  <section id='CanadaWest'>
+    <h2>Canada West</h2>
+    <img></img>
+  </section>
+  <section id='CentralEast'>
+    <h2>Central East</h2>
+    <img></img>
+  </section>
+  <section id='Europe'>
+    <h2>Europe</h2>
+    <img></img>
+  </section>
+  <section id='LatinAmerica'>
+    <h2>Latin America</h2>
+    <img></img>
+  </section>
+  <section id='MidAtlantic'>
+    <h2>NorCal</h2>
+    <img></img>
+  </section>
+  <section id='NorCal'>
+    <h2>NorCal</h2>
+    <img></img>
+  </section>
+  <section id='NorthCentral'>
+    <h2>North Central</h2>
+    <img></img>
+  </section>
+  <section id='NorthEast'>
+    <h2>North East</h2>
+    <img></img>
+  </section>
+  <section id='NorthWest'>
+    <h2>North West</h2>
+    <img></img>
+  </section>
+  <section id='SoCal'>
+    <h2>SoCal</h2>
+    <img></img>
+  </section>
+  <section id='South Central'>
+    <h2>South Central</h2>
+    <img></img>
+  </section>
+  <section id='SouthEast'>
+    <h2>South East</h2>
+    <img></img>
+  </section>
+  <section id='SouthWest'>
+    <h2>South West</h2>
+    <img></img>
+    <small class='colophon'>
+      Based on &copy; <a href='https://github.com/mapbox/tutorial-sherlock'>tutorial-sherlock</a>
+    </small>
+  </section>  
+</article>
+
+
+</body>
+</html>
