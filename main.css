@@ -24,13 +24,13 @@ section {
   }
 section,
 section a {
-  color:#888;
+  color:#ede8d9;
   color:rgba(128,128,128,0);
   text-decoration:none;
   text-shadow:rgba(64,64,64,1) 0px 0px 4px;
   }
 section.active {
-  background:#222;
+  background:#383838;
   color:#eee;
   }
 section.active a { color:#eee; }
@@ -51,16 +51,12 @@ p { margin:0px; }
   display:block;
   margin-top:10px;
   }
-
 .cover:before {
   content:'';
   display:block;
   width:120px; height:100px;
   margin:0px auto 20px;
   }
-.cover.active:before {}
-
-
 #pane {
   position:fixed;
   top:0px;
@@ -74,11 +70,7 @@ p { margin:0px; }
   bottom:0px;
   width:200%;
   left:-50%;
-  transition:opacity 250ms;
-  -moz-transition:opacity 250ms;
-  -webkit-transition:opacity 250ms;
   }
-
 
 /* Distinguish the "cover page" visually other sections. */
 body.section-0 #map { opacity:0.5; }

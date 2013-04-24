@@ -13,23 +13,22 @@
             var dojoConfig = {
                 async: true,
                 parseOnLoad:false,
+                cacheBust: true,
                 packages: [{
                     name: "js",
                     location: location.pathname.replace(/\/[^/]+$/, "")  + "/js"
-                },
-      			{ name: 'underscore', location: 'http://underscorejs.org', main:'underscore-min'}]
+                }]
             };
         </script>
         <script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=3.4">
         </script>
         <script type="text/javascript">
             require(["js/main"], function(main){
-                main.startup();
+                main.init();
             });
         </script>
 </head>
 <body class='section-0'>
-
 <div id='pane'><div id='map'></div></div>
 
 <article>
@@ -46,8 +45,8 @@
     <h2>Asia</h2>
     <img></img>
   </section>
-  <section id='Austrailia'>
-    <h2>Austrailia</h2>
+  <section id='Australia'>
+    <h2>Australia</h2>
     <img></img>
   </section>
   <section id='CanadaEast'>
@@ -71,10 +70,10 @@
     <img></img>
   </section>
   <section id='MidAtlantic'>
-    <h2>NorCal</h2>
+    <h2>Mid Atlantic</h2>
     <img></img>
   </section>
-  <section id='NorCal'>
+  <section id='Norcal'>
     <h2>NorCal</h2>
     <img></img>
   </section>
@@ -94,7 +93,7 @@
     <h2>SoCal</h2>
     <img></img>
   </section>
-  <section id='South Central'>
+  <section id='SouthCentral'>
     <h2>South Central</h2>
     <img></img>
   </section>
@@ -110,7 +109,5 @@
     </small>
   </section>  
 </article>
-
-
 </body>
 </html>

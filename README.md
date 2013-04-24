@@ -1,6 +1,16 @@
 #ArcGIS Online Editing Sample
 
-Simple example of attribute inspector and editing. This sample shows how to retrieve the ObjectID in the attribute inspector. 
+Based on [alistapart](http://alistapart.com/article/hack-your-maps)
+
+I wanted to replicate it to some degree with and AGOL map and CrossFit Regions. 
+
+## To-Do
+* Add Region images
+* Initial selection of feature on load
+* Better mobile scrolling
+
+
+
 
 
 [View it live](http://thejones.github.com/CrossFitRegions/index.html)
@@ -8,7 +18,7 @@ Simple example of attribute inspector and editing. This sample shows how to retr
 
 
 ## Features
-* Editing
+* AGOL map. 
 
 ## Instructions
 
