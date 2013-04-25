@@ -62,7 +62,7 @@ function(Map,esriUtils,attrInspect,FeatureLayer,esriQuery,dom,domStyle,esri,arra
         }
         else{
             /*skip callback*/
-            console.log("Skip callback");
+            console.log("Skip callback"); 
             
             processFeatures(id);            
         }       
