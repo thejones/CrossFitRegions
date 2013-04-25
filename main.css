@@ -75,7 +75,7 @@ p { margin:0px; }
 /* Distinguish the "cover page" visually other sections. */
 body.section-0 #map { opacity:0.5; }
 
-@media (max-width:640px) {
+@media only screen and (max-device-width: 640px){
   body {
     font-size:12px;
     line-height:16px;
