@@ -49,7 +49,7 @@ function(Map,esriUtils,attrInspect,FeatureLayer,esriQuery,dom,domStyle,esri,arra
         /*var selectionSymbol = new esri.symbol.SimpleFillSymbol().setColor(new dojo.Color([255,255,0,0.5]));
         applicationQueryLayer.setSelectionSymbol(selectionSymbol);    */    
 
-        this.map.setLevel(5);/*helps the map start off looking good*/
+        this.map.setLevel(5);/*helps the map start off looking good*/ 
     },
     createQuery = function(id){
         if(id === 'cover'){return}        
